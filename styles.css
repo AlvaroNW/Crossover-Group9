@@ -55,6 +55,19 @@ body{
 }
 /* Amazing Dance */
 
+/* Fonts */
+
+@font-face {
+  font-family:'Oswald' ;
+  src: url(/fonts/Oswald-Bold.ttf);
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url(/fonts/Montserrat-Regular.ttf);
+}
+
 .Amazing-dance{
   background-color: #f67c3b;
   background-image: url(/img/pattern_white.png);
@@ -93,7 +106,7 @@ body{
 .Amazing-dance-title{
   font-family: 'Oswald', sans-serif;
   font-size: 4.68em;
-  font-weight: 750;
+  font-weight: 800;
   margin-left: 10%;
   
 }
@@ -123,6 +136,30 @@ body{
 }
 
 /* Statistics */
+.Statistics{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.statistics-title-wrap{
+  display: flex;
+  margin: 5em;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.statistics-title-wrap p{
+  margin-top: 2em;
+}
+
+.statistics-facts-wrap{
+  display: flex;
+  margin: 5em;
+  align-items: center;
+  justify-content: center;
+}
 .statistics-title{
   font-family: 'Oswald', sans-serif;
   font-size: 4.68em;
