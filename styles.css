@@ -188,3 +188,42 @@ body {
   font-family: "Oswald", sans-serif;
   font-weight: 600;
 }
+
+footer {
+  max-width: 1920px;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  padding: 4%;
+}
+
+footer h4 {
+  font-family: "Oswald", sans-serif;
+  font-size: 0.9em;
+  letter-spacing: 0.1em;
+}
+
+footer li {
+  font-family: "Montserrat", sans-serif;
+  padding-top: 15px;
+  line-height: 1.4em;
+}
+
+footer li img {
+  width: 30px;
+  margin-right: 15px;
+}
+
+footer .first {
+  width: 30%;
+}
+
+footer .second {
+  width: 15%;
+}
+footer .third {
+  width: 15%;
+}
+footer .four {
+  width: 15%;
+}
