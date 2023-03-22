@@ -272,7 +272,6 @@ nav #nav-search {
 .card{
   width: 23.25em;
   background-color: #e8631c;
-  margin-inline: 2em;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -302,6 +301,7 @@ nav #nav-search {
   font-family: 'Oswald', sans-serif;
   font-size: 1em;
   font-weight: 400;
+  cursor: pointer;
 }
 
 
