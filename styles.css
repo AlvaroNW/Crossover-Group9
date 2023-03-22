@@ -139,6 +139,7 @@ body {
 	Background-color: #303030
 }
 
+/* Navbar */
 nav {
 	margin: 1.56rem 2.5rem 1.56rem 4.5rem;
 	color: white;
@@ -160,7 +161,8 @@ nav #navbar {
 
 nav .nav-link a {
 	margin: 1.5rem;
-	font-family: 'Oswald';
+	font-family: 'Oswald', sans-serif;
+	;
 	font-weight: 400;
 	text-transform: uppercase;
 	font-size: 1.56rem;
@@ -174,7 +176,7 @@ nav #nav-search {
 }
 
 
-
+/* Title */
 .Title {
 	height: 50vw;
 	color: white;
@@ -192,7 +194,7 @@ nav #nav-search {
 }
 
 .Title h1 {
-	font-family: 'Oswald';
+	font-family: 'Oswald', sans-serif;
 	font-weight: 400;
 	font-size: 7.8125rem;
 	margin: 1rem 0;
@@ -200,7 +202,7 @@ nav #nav-search {
 
 
 .Title article {
-	font-family: "Montserrat";
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
 	font-size: 2rem;
 	margin: 1rem 0;
@@ -208,7 +210,7 @@ nav #nav-search {
 
 .Title #register-btn {
 	color: white;
-	font-family: 'Oswald';
+	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
 	font-size: 1.9rem;
 	border-radius: 4px;
@@ -219,7 +221,8 @@ nav #nav-search {
 	width: 50%;
 }
 
-/* TODO orange overlay for background find corect color */
+
+/* Herbert */
 .Herbert {
 	display: flex;
 	flex-direction: column;
@@ -240,7 +243,7 @@ nav #nav-search {
 }
 
 .Herbert article {
-	font-family: "Montserrat";
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
 	font-size: 3.125rem;
 	margin: 1.5rem;
@@ -248,7 +251,7 @@ nav #nav-search {
 }
 
 .Herbert h3 {
-	font-family: "Oswald";
+	font-family: 'Oswald', sans-serif;
 	font-weight: 700;
 	font-size: 3.625rem;
 	margin: 1.5rem;
