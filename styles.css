@@ -261,7 +261,6 @@ nav #nav-search {
 	position: absolute;
 	inset: 0;
 	z-index: -1;
-
 	background: url("./img/pattern_black.png");
 }
 
@@ -320,62 +319,80 @@ nav #nav-search {
 
 /* Pricing */
 
-.pricing-title{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 60%;
-  margin: auto;
-  text-align: center;
-}
-.pricing h2{
-  font-family: 'Oswald', sans-serif;
-  font-size: 3.875em;
-  margin: 1em 0;
-}
-.pricing p{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.875em;
-}
-.cards{
-  display: flex;
-  margin: 5em;
-  justify-content: space-around;
+.pricing-title {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 60%;
+	margin: auto;
+	text-align: center;
+	position: relative;
+	isolation: isolate;
 }
 
-.card{
-  width: 23.25em;
-  background-color: #e8631c;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-  border-radius: 5px;
+.pricing-title::after {
+	content: '';
+	position: absolute;
+	inset: 0;
+	z-index: -1;
+	background: url("./img/pattern_white2.png");
 }
-.card img{
-  width: 7em;
-  margin: 2em 0;
+
+.pricing h2 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 3.875em;
+	margin: 1em 0;
 }
-.card h4{
-  font-family: 'Oswald', sans-serif;
-  font-size: 2em;
-  margin: 1em 0;
+
+.pricing p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.875em;
 }
-.card p{
-  font-size: 1.375em;
-  margin: 1em 0;
+
+.cards {
+	display: flex;
+	padding: 5em;
+	justify-content: space-evenly;
 }
-.card button{
-  margin: 1em 0;
-  width: 20.125em;
-  height: 4.0625em;
-  border-radius: 4px;
-  background-color: #303030;
-  color: #ffffff;
-  font-family: 'Oswald', sans-serif;
-  font-size: 1em;
-  font-weight: 400;
-  cursor: pointer;
+
+.card {
+	width: 23.25em;
+	background-color: #e8631c;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	border-radius: 5px;
+	margin: 2rem;
+}
+
+.card img {
+	width: 7em;
+	margin: 2em 0;
+}
+
+.card h4 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 2em;
+	margin: 1em 0;
+}
+
+.card p {
+	font-size: 1.375em;
+	margin: 1em 0;
+}
+
+.card button {
+	margin: 1em 0;
+	width: 20.125em;
+	height: 4.0625em;
+	border-radius: 4px;
+	background-color: #303030;
+	color: #ffffff;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+	cursor: pointer;
 }
 
 
