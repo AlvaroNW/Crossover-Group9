@@ -49,5 +49,129 @@ table {
 
 /* Start of CSS */
 body{
-  Background-color: #303030
+  Background-color: #303030;
+  color: rgba(255,255,255,255);
+  
+}
+/* Amazing Dance */
+
+/* Fonts */
+
+@font-face {
+  font-family:'Oswald' ;
+  src: url(/fonts/Oswald-Bold.ttf);
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url(/fonts/Montserrat-Regular.ttf);
+}
+
+.Amazing-dance{
+  background-color: #f67c3b;
+  background-image: url(/img/pattern_white.png);
+
+}
+.Amazing-section1{
+  display: flex;
+  align-items: center;
+}
+
+.Amazing-img1{
+  background-image: url(/img/section_04.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  flex-basis: 50%;
+  height: 61.5em;
+}
+
+.Amazing-section2{
+  display: flex;
+}
+.Amazing-img2{
+  background-image: url(/img/section_05.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left center;
+  width: 50vw;
+  height: 61.5em;
+  
+}
+.Amazing-dance-text{
+  flex-basis: 50%;
+  
+}
+.Amazing-dance-title{
+  font-family: 'Oswald', sans-serif;
+  font-size: 4.68em;
+  font-weight: 800;
+  margin-left: 10%;
+  
+}
+
+.Amazing-dance-p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.875em;
+  font-weight: 400;
+  margin-left: 10%;
+  margin-top: 1.5em;
+  max-width: 80%
+}
+
+
+.Amazing-button{
+  width: 322px;
+  height: 65px;
+  border-radius: 4px;
+  background-color: #303030;
+  color:#ffffff ;
+  font-size: 1.8125em;
+  font-weight: 400;
+  font-family: 'Oswald', sans-serif;
+  cursor: pointer;
+  margin-left: 10%;
+  margin-top: 4em;
+}
+
+/* Statistics */
+.Statistics{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.statistics-title-wrap{
+  display: flex;
+  margin: 5em;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.statistics-title-wrap p{
+  margin-top: 2em;
+}
+
+.statistics-facts-wrap{
+  display: flex;
+  margin: 5em;
+  align-items: center;
+  justify-content: center;
+}
+.statistics-title{
+  font-family: 'Oswald', sans-serif;
+  font-size: 4.68em;
+  font-weight: 700;
+}
+.statistics-number{
+  font-family: 'Oswald', sans-serif;
+  font-size: 4.18em;
+  font-weight: 700;
+}
+.statistics-p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.625em;
+  font-weight: 400;
 }
