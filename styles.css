@@ -84,13 +84,17 @@ time,
 mark,
 audio,
 video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+
+
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+
 }
+
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -103,35 +107,294 @@ hgroup,
 menu,
 nav,
 section {
-  display: block;
+	display: block;
 }
+
 body {
   line-height: 1;
 }
+
+
 ol,
 ul {
-  list-style: none;
+	list-style: none;
 }
+
 blockquote,
 q {
-  quotes: none;
+	quotes: none;
 }
+
+
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: "";
-  content: none;
+	content: '';
+	content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
 /* Start of CSS */
-body {
-  background-color: #303030;
+
+
+/* Fonts */
+
+@font-face {
+  font-family:'Oswald' ;
+  src: url(/fonts/Oswald-Bold.ttf);
+  font-weight: bold;
+  font-style: normal;
 }
+@font-face {
+  font-family: 'Montserrat';
+  src: url(/fonts/Montserrat-Regular.ttf);
+}
+
+body {
+	Background-color: #303030;
+  color: rgba(255,255,255,255);
+}
+
+/* Navbar */
+nav {
+	margin: 1.56rem 2.5rem 1.56rem 4.5rem;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav #nav-logo {
+	width: 7.5%;
+	height: auto;
+}
+
+nav #navbar {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav .nav-link a {
+	margin: 1.5rem;
+	font-family: 'Oswald', sans-serif;
+	;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 1.56rem;
+	text-decoration: none;
+	color: white;
+}
+
+nav #nav-search {
+	width: 2%;
+	height: auto;
+}
+
+
+/* Title */
+.Title {
+	height: 50vw;
+	color: white;
+	background: url("./img/section_00.jpg") no-repeat;
+	background-size: cover;
+}
+
+.Title #Title-content {
+	width: 45%;
+	height: 100%;
+	padding: 4.5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.Title h1 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-size: 7.8125rem;
+	margin: 1rem 0;
+}
+
+
+.Title article {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 2rem;
+	margin: 1rem 0;
+}
+
+.Title #register-btn {
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-size: 1.9rem;
+	border-radius: 4px;
+	border: #e7631c;
+	background-color: #e7631c;
+	padding: 1rem;
+	margin: 1rem 0;
+	width: 50%;
+}
+
+
+
+
+
+/* Amazing Dance */
+
+
+
+.Amazing-dance{
+  background-color: #f67c3b;
+  background-image: url(/img/pattern_white.png);
+
+}
+.Amazing-section1{
+  display: flex;
+  align-items: center;
+}
+
+.Amazing-img1{
+  background-image: url(/img/section_04.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  flex-basis: 50%;
+  height: 61.5em;
+}
+
+.Amazing-section2{
+  display: flex;
+}
+.Amazing-img2{
+  background-image: url(/img/section_05.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left center;
+  width: 50vw;
+  height: 61.5em;
+  
+}
+.Amazing-dance-text{
+  flex-basis: 50%;
+  
+}
+.Amazing-dance-title{
+  font-family: 'Oswald', sans-serif;
+  font-size: 4.68em;
+  font-weight: 800;
+  margin-left: 10%;
+  
+}
+
+.Amazing-dance-p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.875em;
+  font-weight: 400;
+  margin-left: 10%;
+  margin-top: 1.5em;
+  max-width: 80%
+}
+
+
+.Amazing-button{
+  width: 322px;
+  height: 65px;
+  border-radius: 4px;
+  background-color: #303030;
+  color:#ffffff ;
+  font-size: 1.8125em;
+  font-weight: 400;
+  font-family: 'Oswald', sans-serif;
+  cursor: pointer;
+  margin-left: 10%;
+  margin-top: 4em;
+}
+
+/* Statistics */
+.Statistics{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.statistics-title-wrap{
+  display: flex;
+  margin: 5em;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.statistics-title-wrap p{
+  margin-top: 2em;
+}
+
+.statistics-facts-wrap{
+  display: flex;
+  margin: 5em;
+  align-items: center;
+  justify-content: center;
+}
+.statistics-title{
+  font-family: 'Oswald', sans-serif;
+  font-size: 4.68em;
+  font-weight: 700;
+}
+.statistics-number{
+  font-family: 'Oswald', sans-serif;
+  font-size: 4.18em;
+  font-weight: 700;
+}
+.statistics-p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.625em;
+  font-weight: 400;
+ }
+ 
+ 
+ /* Herbert */
+.Herbert {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 50vw;
+	color: white;
+	background: url("./img/section_07.jpg") no-repeat, #e7631c;
+	background-blend-mode: multiply;
+	background-size: cover;
+}
+
+.Herbert #Herbert-content {
+	margin: 20%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.Herbert article {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 3.125rem;
+	margin: 1.5rem;
+	text-align: center;
+}
+
+.Herbert h3 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	font-size: 3.625rem;
+	margin: 1.5rem;
+}
+
+/* subscribe */
 
 .subscribe {
   background-color: #e7631c;
@@ -188,6 +451,8 @@ body {
   font-family: "Oswald", sans-serif;
   font-weight: 600;
 }
+
+/* footer */
 
 footer {
   max-width: 1920px;
