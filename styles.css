@@ -84,12 +84,15 @@ time,
 mark,
 audio,
 video {
+
+
 	margin: 0;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -108,8 +111,9 @@ section {
 }
 
 body {
-	line-height: 1;
+  line-height: 1;
 }
+
 
 ol,
 ul {
@@ -121,6 +125,7 @@ q {
 	quotes: none;
 }
 
+
 blockquote:before,
 blockquote:after,
 q:before,
@@ -130,11 +135,12 @@ q:after {
 }
 
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Start of CSS */
+
 
 /* Fonts */
 
@@ -386,4 +392,103 @@ nav #nav-search {
 	font-weight: 700;
 	font-size: 3.625rem;
 	margin: 1.5rem;
+}
+
+/* subscribe */
+
+.subscribe {
+  background-color: #e7631c;
+  background-image: url(./img/pattern_black.png), url(./img/pattern_black.png);
+  background-position: right, left;
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+
+.inner_subscribe {
+  display: flex;
+  max-width: 1920px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 8%;
+  padding-bottom: 8%;
+}
+
+.subscribe h2 {
+  font-size: 1.5em;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 0.1em;
+  color: #fff;
+  padding-bottom: 4%;
+}
+
+.subscribe p {
+  max-width: 720px;
+  font-size: 1em;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 3%;
+}
+
+.subscribe input {
+  width: 60%;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  padding: 2% 3% 2% 3%;
+  font-size: 1em;
+  border-radius: 0;
+  -webkit-appearance: none;
+  border: 1px solid transparent;
+}
+.subscribe button {
+  padding: 2% 3% 2% 3%;
+  border-radius: 0;
+  -webkit-appearance: none;
+  background-color: #303030;
+  border: 0;
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+}
+
+/* footer */
+
+footer {
+  max-width: 1920px;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  padding: 4%;
+}
+
+footer h4 {
+  font-family: "Oswald", sans-serif;
+  font-size: 0.9em;
+  letter-spacing: 0.1em;
+}
+
+footer li {
+  font-family: "Montserrat", sans-serif;
+  padding-top: 15px;
+  line-height: 1.4em;
+}
+
+footer li img {
+  width: 30px;
+  margin-right: 15px;
+}
+
+footer .first {
+  width: 30%;
+}
+
+footer .second {
+  width: 15%;
+}
+footer .third {
+  width: 15%;
+}
+footer .four {
+  width: 15%;
 }
