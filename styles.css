@@ -147,7 +147,10 @@ nav {
 	align-items: center;
 }
 
-nav #nav-logo {}
+nav #nav-logo {
+	width: 7.5%;
+	height: auto;
+}
 
 nav #navbar {
 	list-style: none;
@@ -165,7 +168,10 @@ nav .nav-link a {
 	color: white;
 }
 
-nav #nav-search {}
+nav #nav-search {
+	width: 2%;
+	height: auto;
+}
 
 
 
@@ -213,7 +219,7 @@ nav #nav-search {}
 	width: 50%;
 }
 
-/* TODO orange overlay for background(:after) */
+/* TODO orange overlay for background find corect color */
 .Herbert {
 	display: flex;
 	flex-direction: column;
@@ -223,6 +229,17 @@ nav #nav-search {}
 	color: white;
 	background: url("./img/section_07.jpg") no-repeat;
 	background-size: cover;
+	position: relative;
+	isolation: isolate;
+}
+
+.Herbert::after {
+	content: '';
+	position: absolute;
+	inset: 0;
+	background: #d44b01;
+	opacity: .7;
+	z-index: -1;
 }
 
 .Herbert #Herbert-content {
