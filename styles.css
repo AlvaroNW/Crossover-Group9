@@ -227,19 +227,9 @@ nav #nav-search {
 	justify-content: center;
 	height: 50vw;
 	color: white;
-	background: url("./img/section_07.jpg") no-repeat;
+	background: url("./img/section_07.jpg") no-repeat, #e7631c;
+	background-blend-mode: multiply;
 	background-size: cover;
-	position: relative;
-	isolation: isolate;
-}
-
-.Herbert::after {
-	content: '';
-	position: absolute;
-	inset: 0;
-	background: #d44b01;
-	opacity: .7;
-	z-index: -1;
 }
 
 .Herbert #Herbert-content {
